@@ -1,0 +1,34 @@
+{
+  "name": "machinepack-foursquareimageproxy",
+  "version": "1.0.0",
+  "description": "proxy images of a foursquare venue based on its foursqaure id",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "foursquare image proxy",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Paul Wood",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^10.0.0",
+    "machinepack-foursquare": "^1.0.2"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/paulwoodiii/machinepack-foursquareimageproxy.git"
+    },
+  "machinepack": {
+    "friendlyName": "foursquare image proxy",
+    "machineDir": "machines/",
+    "machines": [
+      "say-hello",
+      "get-best-image-from-venue"
+    ]
+  }
+}
