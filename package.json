@@ -27,7 +27,6 @@
     "friendlyName": "foursquare image proxy",
     "machineDir": "machines/",
     "machines": [
-      "say-hello",
       "get-best-image-from-venue"
     ]
   }
