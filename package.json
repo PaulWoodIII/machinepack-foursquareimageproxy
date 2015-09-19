@@ -10,7 +10,9 @@
     "machines",
     "machinepack"
   ],
-  "author": "Paul Wood",
+  "author": {
+    "name": "Paul Wood"
+  },
   "license": "MIT",
   "dependencies": {
     "machine": "^10.0.0",
@@ -21,13 +23,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulwoodiii/machinepack-foursquareimageproxy.git"
+    "url": "git+https://github.com/paulwoodiii/machinepack-foursquareimageproxy.git"
   },
   "machinepack": {
     "friendlyName": "foursquare image proxy",
     "machineDir": "machines/",
     "machines": [
-      "get-best-image-from-venue"
+      "best"
     ]
-  }
+  },
+  "gitHead": "7b4707a84dccc8390f0749a7f708bd88923d2a70",
+  "bugs": {
+    "url": "https://github.com/paulwoodiii/machinepack-foursquareimageproxy/issues"
+  },
+  "homepage": "https://github.com/paulwoodiii/machinepack-foursquareimageproxy#readme",
+  "_id": "machinepack-foursquareimageproxy@1.0.1",
+  "_shasum": "32109aa2deb153ceae786fddcc2863e49c31b028",
+  "_from": "machinepack-foursquareimageproxy@^1.0.1",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "paulwoodiii",
+    "email": "paul.wood.iii@gmail.com"
+  },
+  "dist": {
+    "shasum": "32109aa2deb153ceae786fddcc2863e49c31b028",
+    "tarball": "http://registry.npmjs.org/machinepack-foursquareimageproxy/-/machinepack-foursquareimageproxy-1.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "paulwoodiii",
+      "email": "paul.wood.iii@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/machinepack-foursquareimageproxy/-/machinepack-foursquareimageproxy-1.0.1.tgz"
 }

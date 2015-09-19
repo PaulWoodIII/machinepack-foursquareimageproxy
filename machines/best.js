@@ -58,7 +58,11 @@ module.exports = {
       // OK.
       success: function(output) {
         var venue = output.venue;
-        var returnValue = venue.bestPhoto.prefix + "width640" + venue.bestPhoto.suffix
+        if(typeof venue === 'undefined'){
+          return exits.error('venue not found');
+        }
+        var size = inputs.size || "width640";
+        var returnValue = venue.bestPhoto.prefix + size + venue.bestPhoto.suffix;
         return exits.success(returnValue);
       },
     });
