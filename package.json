@@ -1,6 +1,6 @@
 {
   "name": "machinepack-foursquareimageproxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "proxy images of a foursquare venue based on its foursqaure id",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
